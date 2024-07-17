@@ -12,14 +12,20 @@ document.addEventListener('DOMContentLoaded', function() {
       // Get form data
       const nama = document.getElementById('Nama').value;
       const tanggalLahir = document.getElementById('tanggal-lahir').value;
-      const jenisKelamin = document.getElementById('pria').value;
+      const jenisKelamin = document.getElementsByName('jenisKelamin').value;
+      const jenisKelamin1 = document.getElementById('pria');
+      const jenisKelamin2 = document.getElementById('wanita');
       
-        if (jenisKelamin.checked == true ) {
-            jenisKelamin.checked == false; 
+        if (jenisKelamin1.checked == true ) {
+            jenisKelamin1.checked = false; 
         } else {
-            jenisKelamin.checked == false; 
+            jenisKelamin1.checked = false; 
         }
-        
+        if (jenisKelamin2.checked == true ) {
+            jenisKelamin2.checked = false; 
+        } else {
+            jenisKelamin2.checked = false; 
+        }
       const pesan = document.getElementById('Pesan').value;
 
       // Delete form data
