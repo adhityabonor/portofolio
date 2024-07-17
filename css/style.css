@@ -1,1 +1,133 @@
 /* Ini css */
+
+main {
+    padding: 32px;
+    font-family: math;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: math;
+}
+
+.logo-icon {
+    height: 50px;
+    width: 50px;
+
+    /* for image icon */
+    background-image: url(../assets/1718280075014.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+nav>a{
+    padding-left: 32px;
+    padding-right: 32px;
+    border: 1px solid;
+}
+
+.banner-container {
+    height: 550px;
+    width: 100%;
+    background-image: url(../assets/IMG20220501132906.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.profile-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile-item {
+    text-align: center;
+    flex: 1;
+    text-align: -webkit-center;
+}
+
+.profile-icon {
+    height: 50px;
+    width: 50px;
+
+    /* for image icon */
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.Twitter {
+    background-image: url(../assets/1691832581twitter-x-icon-png.png)
+}
+
+.Instagram {
+    background-image: url(../assets/images.jpg)
+}
+
+.LinkedIn {
+    background-image: url(../assets/LinkedIn_logo_initials.png)
+}
+
+.divider {
+    flex: 2;
+}
+
+.form-container {
+    padding: 15px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nama1-container {
+    float: left;
+}
+
+.nama2-container {
+    width: 6cm;
+    float: inherit;
+    resize: none;
+    font-family: math;
+}
+
+.tanggal-lahir-container {
+    width: 6cm;
+    height: 1cm;
+    font-family: math;
+}
+
+.radio-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.pesan1-container {
+    float: left;
+}
+
+.pesan2-container {
+    height: 6cm;
+    width: 6cm;
+    float: inherit;
+    text-align: left;
+    resize: none;
+    font-family: math;
+}
+
+.submit-container {
+    width: 9.1cm;
+    height: 0.9cm;
+    font-family: math;
+}
+
+.output-form-container {
+    resize: none;
+    height: 100%;
+    width: 15cm
+}
+
+.footer-container {
+    font-family: math;
+}
