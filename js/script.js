@@ -14,16 +14,12 @@ document.addEventListener('DOMContentLoaded', function() {
       const tanggalLahir = document.getElementById('tanggal-lahir').value;
       const jenisKelamin = document.getElementById('pria').value;
       
-        if ('pria'.checked == true ) {
-            'pria'.checked == false; 
+        if (jenisKelamin.checked == true ) {
+            jenisKelamin.checked == false; 
         } else {
-            'pria'.checked == false; 
+            jenisKelamin.checked == false; 
         }
-        if ('wanita'.checked == true ) {
-            'wanita'.checked == false; 
-        } else {
-            'wanita'.checked == false; 
-        }
+        
       const pesan = document.getElementById('Pesan').value;
 
       // Delete form data
