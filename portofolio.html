@@ -4,10 +4,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portofolio Adhitya Bonor</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <!-- Ini Header Nav -->
+    <header class="nav-container">
+        <div class="logo-icon"></div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#my-social-media">My Social Media</a>
+            <a href="#portofolio">Portofolio</a>
+            <a href="#message-us">Message Us</a>
+        </nav>
+    </header>
+    <hr />
+
+<main>
+    <!--Ini Home content-->
+    <section id="home">
+        <header>
+            <h1>Hi User, Welcome to Website</h1>
+        </header>
+
+        <article>
+            <p>Ini adalah Website Portofolio Saya</p>
+
+            <div class="banner-container"></div>
+        </article>
+    </section>
+
+    <hr />
+
+    <!--Ini My Social Media content-->
+    <section id="my-social-media">
+        <header>
+            <h1>My Social Media</h1>
+        </header>
+
+        <article class="profile-content">
+            <div class="profile-item">
+                <div class="profile-icon Twitter"></div>
+                <a href="https://x.com/bnradhityareal1" target="_blank">Twitter</a>
+            </div>
+            
+            <div class="profile-item">
+                <div class="profile-icon Instagram"></div>
+                <a href="https://www.instagram.com/bnrimmanuel/" target="_blank">Instagram</a>
+            </div>
+
+            <div class="profile-item">
+                <div class="profile-icon LinkedIn"></div>
+                <a href="https://www.linkedin.com/in/adhitya-bonor-immanuel-sitompul-592456199" target="_blank">LinkedIn</a>
+            </div>
+
+            <div class="divider"></div>
+        </article>
+    </section>
+
+<hr />
+
+    <!--Ini Portofolio content-->
+    <section id="portofolio">
+        <header>
+            <h1>Portofolio</h1>
+        </header>
+
+        <article>
+
+        </article>
+    </section>
+<hr />
+
+    <!--Ini Message Us content-->
+    <section id="message-us">
+        <header>
+            <h1>Message Us</h1>
+        </header>
+        
+            <form action="" id="MessageUsForm" class="form-container">
+                <div>
+            <label id="nama" for="Nama" class="nama1-container">Nama &emsp; &emsp; &nbsp; &nbsp; : &nbsp;</label>
+            <textarea type="text" id="Nama" name="Nama" class="nama2-container" placeholder="Nama"></textarea>
+            <br><br>
+            <label id="tanggalLahir" for="tanggal-lahir">Tanggal Lahir &nbsp;: &nbsp;</label>
+            <input type="datetime-local" id="tanggal-lahir" name="Tanggal Lahir" class="tanggal-lahir-container"></textarea>
+            <br><br>
+            <label id="jenisKelamin" for="Jenis-Kelamin" class="radio-container">Jenis Kelamin &nbsp;:
+                    <input type="radio" id="pria" name="Jenis Kelamin" value="Pria"><br><br>
+                    <label for="pria">Pria</label>
+                    <input type="radio" id="wanita" name="Jenis Kelamin" value="Wanita"><br><br>
+                    <label for="wanita">Wanita</label>
+            </label>
+        
+            <label id="pesan" for="Pesan" class="pesan1-container">Pesan &emsp; &emsp; &nbsp; &nbsp; : &nbsp;</label>
+            <textarea type="text" id="Pesan" name="Pesan" class="pesan2-container" placeholder="Pesan"></textarea>
+            <br><br>
+            <input type="submit" value="Submit" class="submit-container" id="SubmitButton">
+            <br><br>
+        </div>
+        <br><br>
+            <div>
+                <textarea id="formula" type="text" placeholder="Output Form" readonly class="output-form-container"></textarea>
+            </div>
+        </form>
+    </section>
+</main>
+
+<!--Ini Link Javascript -->
+<script src="js/script.js"></script>
+
+<hr>
+
+    <footer class="footer-container">
+        Copyright (C) 2024 Adhitya Bonor Immanuel Sitompul
+    </footer>
+ 
+</hr>
 
 </body>
 
