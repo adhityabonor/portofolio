@@ -12,10 +12,15 @@ document.addEventListener('DOMContentLoaded', function() {
       // Get form data
       const nama = document.getElementById('Nama').value;
       const tanggalLahir = document.getElementById('tanggal-lahir').value;
-      const jenisKelamin = document.getElementsByName('jenisKelamin').value;
+      const jenisKelamin = document.getElementsByName("jenisKelamin");
       const jenisKelamin1 = document.getElementById('pria');
       const jenisKelamin2 = document.getElementById('wanita');
-      
+      for (i = 0; i < jenisKelamin.length; i++) {
+        if (jenisKelamin[i].checked) {
+            var ijkel = jenisKelamin[i].value;
+        }
+      }
+       
         if (jenisKelamin1.checked == true ) {
             jenisKelamin1.checked = false; 
         } else {
@@ -35,12 +40,11 @@ document.addEventListener('DOMContentLoaded', function() {
       
 
       // Construct the output string
-      const output = `Nama: ${nama}\nTanggal Lahir: ${tanggalLahir}\nJenis Kelamin: ${jenisKelamin}\nPesan: ${pesan}`;
+      const output = `Nama: ${nama}\nTanggal Lahir: ${tanggalLahir}\nJenis Kelamin: ${ijkel}\nPesan: ${pesan}`;
 
       // Display the output in the textarea
       document.getElementById('formula').value = output;
 
      
   })
-  
-        });
+});
